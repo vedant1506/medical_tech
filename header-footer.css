@@ -1,0 +1,137 @@
+*{
+font-family: helvetica;
+
+}nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(15, 128, 128);
+    color: rgb(255, 255, 255);
+    z-index: 1000;
+    height: 60px;
+    overflow: hidden;
+}
+ul {
+    display: flex;
+    align-items: center;
+
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-inline: 20px;
+}
+ul li a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: -180px;
+}
+
+.logo-img img{
+    height:100%;
+    width: auto;
+    object-fit: contain;
+    max-width: 350px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    color: white;
+    margin-top: 66px;
+    background-color: rgb(15, 128, 128);
+
+}
+
+#bar{
+    align-items: center;
+    display: none;
+    font-size: 25px;
+}
+@media screen and (max-width:1100px){
+    .main{
+        text-align: center;
+        display: block;
+        height: auto;
+    }
+    .mainText{
+        margin-top: 115px;
+    }
+}
+
+@media screen and (max-width:900px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+
+} 
+
+@media screen and (max-width:850px){
+    .patients{
+        width: 90%;
+    }
+    .patientCard img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px){
+    .mainText h1{
+        font-size: 33px;
+    }
+    .main img{
+        width: 90%;
+    }
+    .content{
+        width: 90%;
+    }
+    .contentDetail img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .patientCard img{
+        width: 40%;
+        height: 200px;
+        margin-inline: 8px;
+    }
+    .contact{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .contentDetail img{
+        width: 50%;
+        height: 200px;
+    }
+    .contentDetail{
+        display: block;
+        text-align: center;
+    }
+    .contentDetail h1{
+        font-size: 22px;
+    }
+    .contentDetail p{
+        font-size: 15bpx;
+    }
+}

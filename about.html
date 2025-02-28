@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="about.css">
+        <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 50px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgb(11, 78, 78);
+            color: white;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-img img {
+            height: 50px;
+            width: auto;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        ul li {
+            margin: 0 15px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        ul li a:hover {
+            color: black;
+            border-bottom: 2px solid black;
+        }
+
+        /* Responsive Nav */
+        #bar {
+            font-size: 25px;
+            display: none;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <div class="logo-img"><img src="Health first.png"></div>
+            </div>
+            <i id="bar" class="fa-solid fa-bars"></i>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Ai Doctor.html">AI Doctor</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="consultansy.html">Consultansy</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+
+        </nav>
+    <div class="responsive-container-block bigContainer"></div>
+        <div class="responsive-container-block Container">
+          <div class="imgContainer">
+            
+            <img class="mainImg" src="p2.jpg">
+          </div>
+          <div class="responsive-container-block textSide">
+            <p class="text-blk heading">
+              About Us
+            </p>
+            <p class="text-blk subHeading">
+              "Welcome to Health First, a platform dedicated to supporting mental well-being through accessible resources, expert guidance, and a safe space for individuals seeking help.
+            </p>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+              
+              <div class="cardText">
+                <p class="text-blk cardHeading">
+                  Why We Started
+                </p>
+                <p class="text-blk cardSubHeading">
+                  "We noticed that many individuals struggle with mental health but hesitate to seek help due to stigma or lack of resources. Our platform was created to bridge this gap"
+                </p>
+              </div>
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+              
+              <div class="cardText">
+                <p class="text-blk cardHeading">
+                  What We Offer
+                </p>
+                <p class="text-blk cardSubHeading">
+                  Educational Resources: Articles, videos, and expert insights on various mental health topics.,Self-Help Tools: Guided meditation, journaling exercises, and mindfulness techniques.,Community Support: Forums and discussion spaces where individuals can share their experiences and seek guidance.,Professional Guidance: (If applicable) Access to mental health professionals for advice and counseling.
+              </div>
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+             
+              <div class="cardText">
+                <p class="text-blk cardHeading">
+                  Our Mission
+
+                </p>
+                <p class="text-blk cardSubHeading">
+                  Our mission is to create a safe and supportive space where people can find mental health resources, share their experiences, and connect with a compassionate community. We aim to break the stigma surrounding mental health and encourage open conversations that lead to healing and growth.
+                </p>
+              </div>
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+              
+              <div class="cardText">
+                <p class="text-blk cardHeading">
+                  Our Vision
+
+                </p>
+                <p class="text-blk cardSubHeading">
+                  We envision a world where mental health is prioritized, and no one feels alone in their struggles. Through our platform, we strive to provide easy access to valuable information, self-care tools, and support systems that empower individuals to take charge of their mental well-being
+                </p>
+              </div>
+            </div>
+            <a href="consultancy.html">
+              <button class="explore">
+                Explore our Services
+              </button>
+            </a>
+        </div>
+        </div>
+      </div>
+</body>
+</html>

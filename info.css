@@ -1,0 +1,342 @@
+p{
+    font-size:120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(9, 102, 102);
+    color: white;
+    z-index: 1000;
+    height: 60px;
+    overflow: hidden;
+}
+ul {
+    display: flex;
+    align-items: center;
+
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-inline: 20px;
+}
+ul li a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: -200px;
+    
+}
+
+.logo-img img{
+    height:100%;
+    width: auto;
+    object-fit: contain;
+    max-width: 150px;}
+
+   
+    .dep_img{
+margin-left: 20px;
+display: inline-block;
+text-align:left;
+}
+
+.img1{
+    float: right;
+    margin-left: 2px;
+    border-width: 2px;
+    height: auto;
+}
+
+.anx_img{
+    margin-right: 20px;
+display: inline-block;}
+
+
+.img2{
+    float: left;
+    margin-left: 2px;
+    border-width: 2px;
+    height: auto;
+    padding: 20px;
+}
+
+
+.ocd_img{
+    margin-left: 20px;
+    display: inline-block;
+    text-align:left;
+    }
+    
+    .img3{
+        float: right;
+        margin-left: 2px;
+        border-width: 2px;
+        height: auto;
+        
+    }
+
+
+
+    .sch_img{
+        margin-right: 20px;
+    display: inline-block;}
+    
+    
+    .img4{
+        float: left;
+        margin-left: 2px;
+        border-width: 2px;
+        height: auto;
+        padding: 20px;
+    }
+
+
+    .bd_img{
+        margin-left: 20px;
+        display: inline-block;
+        text-align:left;
+        }
+    
+        .img5{
+            float: right;
+            margin-left: 2px;
+            border-width: 2px;
+            height: auto;
+            
+        }
+  
+        
+        .eat_img{
+            margin-right: 20px;
+        display: inline-block;}
+        
+        
+        .img6{
+            float: left;
+            margin-left: 2px;
+            border-width: 2px;
+            height: auto;
+            padding: 20px;
+        }
+
+        
+    .hel_img{
+        margin-left: 20px;
+        display: inline-block;
+        text-align:left;
+        }
+    
+        .img7{
+            float: right;
+            margin-left: 2px;
+            border-width: 2px;
+            height: auto;
+            
+        }
+
+
+        .iil_img{
+            margin-right: 20px;
+        display: inline-block;}
+        
+        
+        .img8{
+            float: left;
+            margin-left: 2px;
+            border-width: 2px;
+            height: auto;
+            padding: 20px;
+        }
+
+
+        .aut_img{
+            margin-left: 20px;
+            display: inline-block;
+            text-align:left;
+            }
+        
+            .img9{
+                float: right;
+                margin-left: 2px;
+                border-width: 2px;
+                height: auto;
+                
+            }
+
+            .adhd_img{
+                margin-right: 20px;
+            display: inline-block;}
+            
+            
+            .img10{
+                float: left;
+                margin-left: 2px;
+                border-width: 2px;
+                height: auto;
+                padding: 20px;
+            }
+
+            .ptsd_img{
+                margin-left: 20px;
+                display: inline-block;
+                text-align:left;
+                }
+            
+                .img11{
+                    float: right;
+                    margin-left: 2px;
+                    border-width: 2px;
+                    height: auto;
+                    
+                }
+
+                .pd_img{
+                    margin-right: 20px;
+                display: inline-block;}
+                
+                
+                .img12{
+                    float: left;
+                    margin-left: 2px;
+                    border-width: 2px;
+                    height: auto;
+                    padding: 20px;
+                }
+
+                .sad_img{
+                    margin-left: 20px;
+                    display: inline-block;
+                    text-align:left;
+                    }
+                
+                    .img13{
+                        float: right;
+                        margin-left: 2px;
+                        border-width: 2px;
+                        height: auto;
+                        
+                    }
+
+                    
+                .pho_img{
+                    margin-right: 20px;
+                display: inline-block;}
+                
+                
+                .img14{
+                    float: left;
+                    margin-left: 2px;
+                    border-width: 2px;
+                    height: auto;
+                    padding: 20px;
+                }
+
+
+                .did_img{
+                    margin-left: 20px;
+                    display: inline-block;
+                    text-align:left;
+                    }
+                
+                    .img15{
+                        float: right;
+                        margin-left: 2px;
+                        border-width: 2px;
+                        height: auto;
+                        
+                    }
+
+                    .bpd_img{
+                        margin-right: 20px;
+                    display: inline-block;}
+                    
+                    
+                    .img16{
+                        float: left;
+                        margin-left: 2px;
+                        border-width: 2px;
+                        height: auto;
+                        padding: 20px;
+                    }
+
+                    .npd_img{
+                        margin-left: 10px;
+                        display: inline-block;
+                        text-align:left;
+                        }
+                    
+                        .img17{
+                            float: right;
+                            margin-left: 400px;
+                            border-width: 2px;
+                            height: auto;
+                            
+                        }
+
+                        
+                        .aspd_img{
+                            margin-right: 20px;
+                        display: inline-block;}
+                        
+                        
+                        .img18{
+                            float: left;
+                            margin-left: 2px;
+                            border-width: 2px;
+                            height: auto;
+                            padding: 20px;
+                        }
+
+                        .apd_img{
+                            margin-right: 20px;
+                        display: inline-block;}
+                        
+                        
+                        .img19{
+                            float: right;
+                            margin-left: 2px;
+                            border-width: 2px;
+                            height: auto;
+                            padding: 20px;
+                        }
+
+                        .dpd_img{
+                            margin-left: 20px;
+                            display: inline-block;
+                            text-align:left;
+                            }
+                        
+                            .img20{
+                                float: left;
+                                margin-left: 2px;
+                                border-width: 2px;
+                                height: auto;
+                            }
+
+                        
+
+    
+
+                   
+
+

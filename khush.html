@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Medical Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <style>
+        /* General Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Roboto', sans-serif; background-color: #f5f5f5; color: #333; }
+        
+        /* Navigation Bar */
+        nav { display: flex; align-items: center; justify-content: space-between; padding: 15px 50px; position: fixed; top: 0; width: 100%; background-color: #0f8080; color: white; z-index: 1000; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+        .logo img { height: 50px; }
+        ul { display: flex; list-style: none; }
+        ul li { margin: 0 15px; }
+        ul li a { text-decoration: none; color: white; font-size: 18px; transition: 0.3s; }
+        ul li a:hover { color: black; border-bottom: 2px solid black; }
+        #bar { font-size: 25px; display: none; cursor: pointer; }
+        
+        /* Main Section */
+        .main { display: flex; align-items: center; justify-content: space-between; background-color: #66d7d7; color: white; padding: 80px 50px; min-height: 600px; margin-top: 70px; position: relative; }
+        .main img { width: 40%; opacity: 0.8; transition: opacity 0.5s; }
+        .main img:hover { opacity: 1; }
+        .mainText { max-width: 50%; }
+        .mainText h1 { font-size: 48px; font-weight: bold; }
+        .mainText h3 { font-size: 28px; margin-top: 10px; }
+        .mainText button { width: 150px; height: 45px; border: none; margin-top: 20px; background-color: black; color: white; font-size: 18px; border-radius: 5px; transition: 0.3s; cursor: pointer; }
+        .mainText button:hover { background-color: transparent; border: 2px solid white; }
+        
+        /* Doctors Section */
+        .head { text-align: center; padding: 50px; font-size: 28px; font-weight: bold; }
+        .doctors { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .card { width: 250px; background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden; transition: transform 0.3s ease-in-out; text-align: center; padding: 15px; }
+        .card img { width: 100%; border-radius: 10px; transition: transform 0.3s; }
+        .card:hover { transform: scale(1.1); }
+        .card img:hover { transform: scale(1.05); }
+        .card p { margin-top: 12px; font-size: 18px; font-weight: bold; }
+        
+        /* Footer */
+        .footer { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 50px; color: white; background-color: #149c9c; }
+        .text h3 { font-size: 22px; margin-bottom: 10px; }
+        .text p { margin-top: 8px; font-size: 16px; }
+        
+        /* Responsive Adjustments */
+        @media screen and (max-width: 1100px) { .main { flex-direction: column; text-align: center; } .mainText { max-width: 100%; margin-bottom: 20px; } }
+        @media screen and (max-width: 900px) { ul { display: none; } #bar { display: block; } }
+        @media screen and (max-width: 600px) { .mainText h1 { font-size: 36px; } .mainText h3 { font-size: 24px; } .main img { width: 80%; } }
+        @media screen and (max-width: 500px) { .footer { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="Health first.png"></div>
+        <i id="bar" class="fa-solid fa-bars"></i>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">AI Doctor</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Consultancy</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="mainText">
+            <h1>Healing begins when you choose <br>to care for your mind and soul.</h1>
+            <h3>Best Teams</h3>
+            <button>Show More</button>
+        </div>
+        <img src="p1.jpg" alt="Healthcare Image">
+    </div>
+    <div class="head">Our Doctor's</div>
+    <div class="doctors">
+        <div class="card"><img src="Anxiety Disorders.webp" alt="Anxiety"><p>Anxiety Disorder</p></div>
+        <div class="card"><img src="OCD.png" alt="OCD"><p>OCD</p></div>
+        <div class="card"><img src="p5.jpg" alt="Depression"><p>Depression</p></div>
+        <div class="card"><img src="Eating Disorders.jpeg" alt="Eating Disorder"><p>Eating Disorder</p></div>
+        <div class="card"><img src="ADHD.jpeg" alt="ADHD"><p>ADHD</p></div>
+    </div>
+    <div class="footer">
+        <div class="text"><h3>About Us</h3><p>24 Hour's</p><p>Top Doctors</p><p>Best Care</p><p>Patient</p></div>
+        <div class="text"><h3>Speciality</h3><p>Spine Surgery</p><p>Knee Surgery</p><p>Leg Surgery</p><p>Tendon Surgery</p></div>
+    </div>
+</body>
+</html>
